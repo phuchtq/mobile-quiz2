@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="1dp">
+
+    <ImageView
+        android:id="@+id/img_food"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:background="#f0f0f0"
+        android:layout_marginEnd="12dp"
+        android:elevation="2dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên món ăn"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_food_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả món ăn"
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:layout_marginBottom="8dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tv_food_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 ₫"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#E91E63" />
+
+    </LinearLayout>
+
+</LinearLayout>

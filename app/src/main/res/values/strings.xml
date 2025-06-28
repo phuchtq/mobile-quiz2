@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Ứng Dụng Đặt Thức Ăn</string>
+
+    <!-- MainActivity -->
+    <string name="choose_food">Chọn Thức Ăn</string>
+    <string name="choose_drink">Chọn Đồ Uống</string>
+    <string name="order_now">Đặt Món</string>
+    <string name="your_order">Đơn Hàng Của Bạn</string>
+    <string name="total_price">Tổng tiền: %s</string>
+    <string name="no_food_selected">Chưa chọn món ăn</string>
+    <string name="no_drink_selected">Chưa chọn đồ uống</string>
+
+    <!-- FoodActivity -->
+    <string name="select_food">Chọn Món Ăn</string>
+    <string name="tap_to_select_food">Chạm vào món ăn để chọn</string>
+
+    <!-- DrinkActivity -->
+    <string name="select_drink">Chọn Đồ Uống</string>
+    <string name="tap_to_select_drink">Chạm vào đồ uống để chọn</string>
+
+    <!-- Common -->
+    <string name="add">Thêm</string>
+    <string name="update">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="food_name">Món ăn:</string>
+    <string name="drink_name">Đồ uống:</string>
+
+    <!-- Toast Messages -->
+    <string name="please_select_item">Vui lòng chọn ít nhất một món!</string>
+    <string name="food_added">Đã thêm món mới</string>
+    <string name="food_deleted">Đã xóa món ăn</string>
+    <string name="food_updated">Đã cập nhật giá món ăn</string>
+    <string name="drink_added">Đã thêm đồ uống mới</string>
+    <string name="drink_deleted">Đã xóa đồ uống</string>
+    <string name="drink_updated">Đã cập nhật giá đồ uống</string>
+    <string name="select_item_to_delete">Vui lòng chọn một món để xóa</string>
+    <string name="select_item_to_update">Vui lòng chọn một món để cập nhật</string>
+
+    <!-- Food Items -->
+    <string name="pho_hanoi">Phở Hà Nội</string>
+    <string name="pho_description">Món phở truyền thống Hà Nội với nước dùng đậm đà</string>
+    <string name="bun_bo_hue">Bún Bò Huế</string>
+    <string name="bun_bo_description">Bún bò Huế cay nồng đặc trưng miền Trung</string>
+    <string name="mi_quang">Mì Quảng</string>
+    <string name="mi_quang_description">Mì Quảng đậm đà hương vị Quảng Nam</string>
+    <string name="hu_tieu">Hủ Tíu Sài Gòn</string>
+    <string name="hu_tieu_description">Hủ tíu Nam Vang thanh mát</string>
+
+    <!-- Drink Items -->
+    <string name="pepsi">Pepsi</string>
+    <string name="pepsi_description">Nước ngọt Pepsi mát lạnh</string>
+    <string name="heineken">Heineken</string>
+    <string name="heineken_description">Bia Heineken nhập khẩu</string>
+    <string name="tiger">Tiger</string>
+    <string name="tiger_description">Bia Tiger thơm ngon</string>
+    <string name="saigon_do">Sài Gòn Đỏ</string>
+    <string name="saigon_do_description">Bia Sài Gòn Đỏ truyền thống</string>
+</resources>

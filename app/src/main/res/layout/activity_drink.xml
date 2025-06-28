@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHỌN ĐỒ UỐNG"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+
+        <Button
+            android:id="@+id/btn_add_drink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thêm"
+            android:textSize="12sp"
+            android:background="#4CAF50"
+            android:textColor="@android:color/white"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/btn_update_drink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sửa"
+            android:textSize="12sp"
+            android:background="#FF9800"
+            android:textColor="@android:color/white"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/btn_delete_drink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xóa"
+            android:textSize="12sp"
+            android:background="#F44336"
+            android:textColor="@android:color/white"
+            android:layout_margin="4dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#ddd"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chạm vào đồ uống để chọn"
+        android:textSize="14sp"
+        android:textColor="#666"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#E3F2FD" />
+
+</LinearLayout>
